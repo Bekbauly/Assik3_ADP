@@ -90,8 +90,8 @@ type CreateOrderRequest struct {
 
 // UpdateOrderStatusRequest - request to update order status
 type UpdateOrderStatusRequest struct {
-	UserID int    `json:"user_id"`
-	Status string `json:"status"`
+	OrderID int    `json:"user_id"`
+	Status  string `json:"status"`
 }
 
 // FilterProductsRequest - request to update order status
